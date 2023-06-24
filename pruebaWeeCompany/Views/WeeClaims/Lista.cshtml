@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Listar";
+}
+
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" media="screen" />
+@Styles.Render("~/Content/cssForm")
+<div class="row">
+    <div class="col-md-3">
+        <img class="img-responsive" src="~/img/logoWeeClaims.png" />
+    </div>
+    <div class="col-md-9">
+        <h2>Registros</h2>
+        <table id="tablaParticipantes" class="display">
+            <thead>
+                <tr>
+                    <th>Compañia</th>
+                    <th>Cedula</th>
+                    <th>Nombre</th>
+                    <th>Titulo</th>
+                    <th>Correo</th>
+                    <th>Teléfono</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<script src="//cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+@Scripts.Render("~/bundles/listarParticipantes")

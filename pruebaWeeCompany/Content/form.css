@@ -1,0 +1,39 @@
+﻿.error{
+
+    color:red;
+}
+
+h2 {
+    color: #0174DF;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#registroParticipantesForm .form-group {
+    margin-top:25px;
+}
+
+.btn-info {
+    background-color: #5bc0de !important;
+}
+
+#resEstatus {
+    color: #04B486;
+    font-weight: bold;
+}
+
+#resEstatusError {
+    color: red;
+    font-weight: bold;
+}
+.respuestaBack {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+input, select, textarea {
+    max-width: 100% !important;
+}
